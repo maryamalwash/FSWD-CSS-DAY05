@@ -18,7 +18,7 @@ h1 {
 	margin: 5 auto;
 }
 div {
-	background: #a6ff4d;
+	background-image: url("https://hdwallsource.com/img/2014/12/hd-light-green-wallpaper-24344-25004-hd-wallpapers.jpg");
 }
 ul {
 
@@ -37,8 +37,9 @@ a {
 }
 p {
 	font-size: 10px;
-	background: #a6ff4d;
+	background:none ;
 	padding: 0px;
+	
 
 }
 p:hover {
