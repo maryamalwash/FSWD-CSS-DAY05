@@ -9,15 +9,27 @@ h1 {
 
 	font-family: impact ;
 	color: white;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	transition: width 3s, height 3s, transform 3s;
 
 }
-input {
+h1:hover {
+	text-shadow: 5px 5px red;
+	transform: scale(2);
+
+}
+
+.placeholder , input {
 	
 	text-shadow: 1px 1px gray;
 }
-input:hofer {
+input:hofer , .placeholder:hover {
 	width: 100px;
+	transition: width 2s, height 4s;
+	transform: scale(2);
 }
-input {
-	transition-timing-function: 2s
+.placeholder , input {
+	transition-timing-function: ease;
 }
