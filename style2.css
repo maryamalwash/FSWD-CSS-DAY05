@@ -1,0 +1,64 @@
+header {
+	padding: 5px;
+	margin: 10px;
+	background-color: #bcb7b7;
+	display: flex;
+	height: 100px;
+}
+ 
+
+
+ h2 {
+	position: relative;
+	top: 0px;
+	bottom: 500px;
+	left: 0px;
+	right: 40px;
+	padding: 30px;
+	margin: 30px;
+}
+.container {
+	padding: 200px;
+	margin: 10px;
+	background-image: url("https://www.destructoid.com//ul/475145-marr.jpg");
+	background-image-size: 100px;
+}
+
+.div3{
+    font-size: 20px;
+
+}
+
+
+.div4 {
+	display: flex;
+	justify-content: center;
+    transition : all 3s ease;
+}
+.div4:hover {
+	transform: rotate(360deg); 
+	}
+
+
+footer{
+	background-color: #bcb7b7;
+	margin: 10px; 
+    font-size: 20px;
+    display: flex;
+	justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
