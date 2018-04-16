@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://s.codepen.io/CodeFactory2017/fullembedgrid/ZxMzLR?type=embed&animations=run -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+  <title>CodePen - FSWD4.0 - Css - Day01 - Attribute Selectors</title>
+  
+  
+  
+  
+      <style>
+       /* CSS [attribute] Selector example */
+a[target] {
+  background-color: red;
+}
+
+ /* [attribute="value"] Selector example its the same with p.dog */
+p[class="dog"] {
+  color: brown;
+}
+
+
+/* CSS [attribute~="value"] Selector example */
+ p[class~="horse"] {
+    color: green;
+}
+
+/* [attribute^="value"] Selector example */
+ [class^="top"] {
+   background: yellow;
+}
+
+/* [attribute$="value"] Selector example */
+ [class$="test"] {
+   background: blue;
+   color: white;
+   font-family: hola;
+}
+
+
+/* [attribute*="value"] Selector example */
+ [class*="urs"] {
+   background: pink;
+}
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" class="news">
+
+  
+	<div>
+		   <!-- [class^="top"] attribute’s value begins with a specified value-->
+	    <h1 class="top-header">Hello there </h1>
+	    <p class="top-text">Today is such a lovely day!</p> 
+
+	    <!--a[target] a specified attribute--> 
+	    <a target="_blank" href="https://s.codepen.io/CodeFactory2017/fullembedgrid/ZxMzLR?type=embed&amp;animations=run#">Link</a> 
+	    <a href="https://s.codepen.io/CodeFactory2017/fullembedgrid/ZxMzLR?type=embed&amp;animations=run#">Link</a>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat turpis tellus, vitae tempus nisi luctus at. Nam suscipit eu diam at vestibulum. 
+
+	   	<!--p[class="dog"] specified attribute and value-->
+	    </p><p class="dog"> 
+	    Nam gravida</p> dui vel urna feugiat malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+
+	    <!--p[class~="horse"] an attribute value is an specified word-->
+	    <p class="la horse go cat"> Nulla eleifend pharetra. Integer rutrum eros sit amet ante auctor viverra. Donec et enim posuere, laoreet justo id, cursus dolor. Phasellus ultricies sagittis nisl in lobortis. Aliquam non risus eu sapien tempus tempor ut sed tellus. Nullam pulvinar finibus scelerisque. Nullam commodo felis elit, non viverra metus venenatis eu. Aliquam sed erat non libero scelerisque facilisis. Ut nec risus leo. Vivamus viverra elit ac hendrerit blandit.</p>
+
+	  <!--[class$="test"] whose attribute value ends with a specified value.-->
+		<div class="my-test"> The third div element.</div>
+
+		<!-- [class*="co" whose attribute value contains a specified value.] -->	
+		<p><span class="course"> Duis commodo ac purus nec tristique. </span> Proin sit amet sem magna. Nam efficitur</p>
+
+	</div>
+    
+
+  
+  
+  
+  
+  
+
+
+
+
+ </body></html>

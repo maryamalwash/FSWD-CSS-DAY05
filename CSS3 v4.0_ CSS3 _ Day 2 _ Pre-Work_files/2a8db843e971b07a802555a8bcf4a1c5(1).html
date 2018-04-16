@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0109)https://s.codepen.io/CodeFactory2017/fullembedgrid/2a8db843e971b07a802555a8bcf4a1c5?type=embed&animations=run -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+  <meta name="robots" content="noindex">
+  <title>CodePen - FSWD CSS position (2)</title>
+  
+  
+  
+  
+  
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+
+  
+
+  
+    <style>
+      #divstatic {
+        position: static;
+        border: 3px solid green;
+      }
+      #divabsolute {
+        position: absolute;
+        top: 110px;
+        left: 200px;
+        border: 3px solid red;
+      }
+
+      #divrelative {
+        position:relative;
+        top: -70px;
+        left: 100px;
+        border: 3px solid blue;
+      }
+
+      #divfixed {
+        position: fixed;
+        bottom:50px;
+        border: 3px solid violet;
+      }
+
+    </style>
+  
+  
+
+    <h2>position: static;</h2>
+    <p>An element with position: static; will follow the normal flow of the page:</p>
+
+    <div id="divstatic">
+      This div element has <code>position: static;</code> and will follow the normal flow of the page
+    </div>
+
+    <h2>position: absolute;</h2>
+    <p>An element with position: absolute; is free of normal flow restrictions</p>
+    <div id="divabsolute">
+      This div element has <code>position: absolute;</code> and is positioned absolute to the viewport; therefore, normal flow rules do not apply
+    </div>
+    <h2>position: relative;</h2>
+    <p>Non-relative (aka static) element would appear just below this paragraph:</p>
+    <div id="divrelative">
+      This div element has <code>position: relative;</code> to the position where it would be in a normal flow; it can of course go left, right, up and down to this position. 
+    </div>
+    <h2>position: fixed;</h2>
+    <p>Fixed element is glued to edges of the viewport, regardless to how you change the viewport or scroll. </p>
+    <div id="divfixed">
+      This div element has <code>position: fixed;</code>. 
+    </div>
+  
+
+  
+  
+  
+  
+  
+
+
+
+
+ </body></html>
